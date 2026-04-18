@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from './components/navbar'
 
 function App() {
   return (
-    <h1 className='text-3xl font-bold underline'>Welcome to my portfolio!</h1>
+    <main>
+      <NavBar />
+    </main>
   )
 }
 
