@@ -2,8 +2,6 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import React, { useRef } from 'react'
 
-
-
 const FONT_WEIGHTS = {
     subtitle:{min:100, max:400, default:100},
     title:{min:400, max:900, default:400}
@@ -34,7 +32,7 @@ const handleMouseMove = (e) => {
     letters.forEach((letter) => {
         const {left: l , width: w} = letter.getBoundingClientRect();
         const distance = Math.abs(mouseX - (l - left + w / 2));
-        const intensity = Math.exp(-(distance ** 2) / 20000);
+        const intensity = Math.exp(-(distance ** 2) / 19000);
         animateLetter(letter , min + (max - min) * intensity);
     })
 }
