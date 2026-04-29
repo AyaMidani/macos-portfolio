@@ -19,7 +19,7 @@ function Dock() {
             closeWindow(app.id);
         }
         else {
-            focusWindow(app.id);
+            openWindow(app.id);
         }
     }
 
