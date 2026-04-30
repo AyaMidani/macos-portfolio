@@ -1,10 +1,10 @@
-import { gsap } from 'gsap'
-import { Draggable } from 'gsap/Draggable'
+import gsap from 'gsap';
+import Draggable from 'gsap/Draggable';
 
-import { NavBar, Welcome , Dock} from '#components'
-import { Terminal } from '#windows'
+import { NavBar, Welcome , Dock } from '#components';
+import { Terminal, Resume } from '#windows';
 
-gsap.registerPlugin(Draggable)
+gsap.registerPlugin(Draggable);
 
 function App() {
   return (
@@ -14,8 +14,9 @@ function App() {
       <Dock />
 
       <Terminal />
+      <Resume />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
