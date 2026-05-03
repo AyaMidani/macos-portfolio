@@ -310,7 +310,7 @@ body {
     @apply absolute w-3xl left-40 top-20 shadow-2xl drop-shadow-2xl overflow-hidden rounded-xl;
 
     .sidebar {
-      @apply w-48 bg-gray-50 border-r border-gray-200 flex flex-col p-5 space-y-3;
+      @apply w-48 bg-gray-50 border-r border-gray-200 flex flex-col p-5 space-y-3 box-content;;
 
       h3 {
         @apply text-xs font-medium text-gray-400 mb-1;
@@ -340,7 +340,7 @@ body {
         @apply absolute flex items-center flex-col gap-3;
 
         img {
-          @apply object-contain object-center size-16 relative group-hover:scale-105;
+          @apply object-contain object-center size-14 relative group-hover:scale-105;
         }
 
         p {
