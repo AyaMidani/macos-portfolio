@@ -397,40 +397,26 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.jpeg",
     },
-    {
-      id: 2,
-      name: "casual-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
-    },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
-    {
+   {
       id: 4,
       name: "about-me.txt",
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "Full Stack Developer & Problem Solver",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Aya 👋, a Full Stack Developer based in Istanbul who enjoys building modern, interactive web applications and turning ideas into real products.",
+        
+        "I work mostly with JavaScript, React, Next.js, Node.js, Express, and MongoDB. I also have experience with ASP.NET Core, Firebase, and building AI-powered applications.",
+        
+        "I enjoy creating clean user experiences, scalable backend systems, and projects that solve real problems instead of just looking good.",
+        
+        "Recently, I’ve been working on projects like AI mock interview platforms, e-commerce systems, portfolio experiences, and educational platforms tailored to different learning styles.",
+        
+        "Outside of coding, I’m usually learning something new, improving my English, going to the gym, or spending way too much time adjusting UI details until everything feels right 😅",
       ],
     },
   ],
