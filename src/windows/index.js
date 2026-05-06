@@ -3,6 +3,7 @@ import Resume from "./Resume";
 import Finder from "./Finder";
 import Text from "./Text";
 import Image from "./Image";
+import Contact from "./Contact";
 
 
 export {
@@ -11,4 +12,5 @@ export {
     Finder,
     Text,
     Image,
+    Contact,
 }
