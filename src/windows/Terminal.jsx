@@ -34,7 +34,7 @@ function Terminal() {
         </ul>
         <div className='footnote'>
             <p>
-                <Check size={20} className='check' /> 5 of 5 stack loaded successfully (100%)
+                <Check size={20} className='check' /> 6 of 6 stack loaded successfully (100%)
             </p>
             <p className='text-black'>
                 <Flag size={15} fill='black' /> Render time : 6ms

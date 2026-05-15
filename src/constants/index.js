@@ -102,27 +102,27 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
-  },
-  {
-    category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["React.js", "Next.js", "JavaScript", "Redux"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express.js", "ASP.NET Core"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "Redis", "SQLite"],
   },
   {
-    category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    category: "Styling",
+    items: ["Tailwind CSS", "CSS3", "HTML5"],
+  },
+  {
+    category: "Tools",
+    items: ["Git", "GitHub", "Docker", "Postman"],
+  },
+  {
+    category: "Cloud & DevOps",
+    items: ["Firebase", "Vercel", "Render", "Cloudinary"],
   },
 ];
 
@@ -133,13 +133,6 @@ const socials = [
     icon: "/icons/github.svg",
     bg: "#f4656b",
     link: "https://github.com/AyaMidani",
-  },
-  {
-    id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
   },
   {
     id: 3,
@@ -261,7 +254,7 @@ children: [
         kind: "file",
         fileType: "img",
         position: "top-52 right-80",
-        imageUrl: "/images/project-1.png",
+        imageUrl: "/images/prepwise.png",
       },
       {
         id: 5,
@@ -269,7 +262,7 @@ children: [
         icon: "/images/plain.png",
         kind: "file",
         fileType: "fig",
-        href: "https://google.com",
+        href: "https://www.figma.com/design/STXSDzYAeREtVsirAQoBnx/PrepWise-Project?node-id=0-1&t=rrqZWFZo5lrfr1t5-1",
         position: "top-60 right-20",
       },
     ],
@@ -314,7 +307,7 @@ children: [
         kind: "file",
         fileType: "img",
         position: "top-52 left-80",
-        imageUrl: "/images/project-2.png",
+        imageUrl: "/images/ecommerce.png",
       },
       {
         id: 5,
@@ -322,7 +315,7 @@ children: [
         icon: "/images/plain.png",
         kind: "file",
         fileType: "fig",
-        href: "https://google.com",
+        href: "https://www.figma.com/design/rJhUjnkdcq2mkAM9G0IdxH/E-commerce?t=rOtKNDSo4Hvb6sU0-1",
         position: "top-60 left-5",
       },
     ],
@@ -361,21 +354,12 @@ children: [
       position: "top-10 right-20",
     },
     {
-      id: 4,
-      name: "reach-platform.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 right-80",
-      imageUrl: "/images/project-3.png",
-    },
-    {
       id: 5,
       name: "Design.fig",
       icon: "/images/plain.png",
       kind: "file",
       fileType: "fig",
-      href: "https://google.com",
+      href: "https://www.figma.com/design/mM4lV0kDqwYWwU0IVe1FcC/teach-kids-team-library?node-id=411-2&p=f&t=oeaHSRbpGcbT7Vbe-0",
       position: "top-60 right-20",
     },
   ],
